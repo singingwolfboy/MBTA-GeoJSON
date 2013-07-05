@@ -1,0 +1,3 @@
+This project is simply a GeoJSON formatting of existing information from
+the MBTA's website. It currently contains information about stops and routes
+on the subway and silver line.
