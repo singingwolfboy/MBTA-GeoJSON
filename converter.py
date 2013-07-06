@@ -52,7 +52,7 @@ for name in os.listdir(dirname):
 
     for stop_info in obj["Stop"]:
         name = stop_info["StopName"]
-        point = [Decimal(stop_info["Lat"]), Decimal(stop_info["Long"])]
+        point = [Decimal(stop_info["Long"]), Decimal(stop_info["Lat"])]
         route["points"].append(point)
         slug = slugify(name)
         if name != "Point":
